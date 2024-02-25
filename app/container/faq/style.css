@@ -1,0 +1,9 @@
+.animate-showup {
+  animation: showup 1s 0s 1 ease-out forwards;
+  opacity: 0;
+}
+@keyframes showup {
+  to {
+    opacity: 1;
+  }
+}
